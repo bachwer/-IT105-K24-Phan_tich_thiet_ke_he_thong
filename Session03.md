@@ -167,7 +167,124 @@ flowchart TD
     B1 -.-> |<<include>>| B3
     A3 --> B3
     A2 --> B2
-   
+
+```
+
+<h1>Ex 8:  Use Case Diagram cho app shoope </h1>
+
+```mermaid
+flowchart TD
+    %% === ACTORS ===
+    A1[ Người mua]
+    A2[Người bán]
+    A3[Hệ thống thanh toán]
+
+
+    %% === USE CASES ===
+    B1((Đăng nhập))
+    B2((Tìm kiếm & Xem sản phẩm))
+    B3((Đặt hàng))
+    B4((Thanh toán đơn hàng))
+    B5((Quản lý đơn hàng))
+
+    %% === RELATIONS ===
+
+    A1 --> B1
+    
+    A2 --> B1
+  
+    A3 --> B4
+
+    %% Bao gồm đăng nhập cho tất cả
+    B2 -.->|<<include>> role Khách hàng| B1
+    B3 -.->|<<include>> role Khách hàng| B1
+    B5 -.->|<<include>> role Người bán| B1
+
+    
+    B3 -.->|<<include>>| B4
+```
+
+
+<h1>Ex 9:   Hệ thống đăng ký môn học  </h1>
+
+```mermaid
+flowchart TD
+    %% === ACTORS ===
+    A[ User]
+
+    B1((Đăng Nhập))
+    B2((Đăng Kí Môn Học))
+    B3((Kiểm tra lịch Học))
+    B4((Xem môn học trùng))
+    B5((Xác nhận đăng kí))
 
 
 
+    A --> B1
+
+
+    B1 -.->|<<include>>| B2
+    B1 -.->|<<include>>| B3
+
+    B2 -.->|<<include>>| B5
+    B3 -.->|<<extend>>| B4
+
+```
+
+
+<h1>Ex 9:   hệ thống quản lý đào tạo online  </h1>
+
+```mermaid
+flowchart TD
+    %% === ACTORS ===
+    A1[ Học Viên]
+    A2[ Giảng Viên]
+    A3[ Quản Trị Viên]
+
+    %% === USE CASES HỌC VIÊN ===
+    B1((Đăng ký học))
+    B2((Học online))
+    B3((Xem khóa học))
+    B4((Làm bài kiểm tra))
+    B5((Xem điểm))
+    B6((Làm đơn xin nghỉ))
+    B7((Xem thống kê kết quả học cá nhân))
+
+    %% === USE CASES GIẢNG VIÊN ===
+    B8((Xem môn đang dạy))
+    B9((Chấm bài))
+    B10((Xem thống kê lớp học))
+
+    %% === USE CASES QUẢN TRỊ ===
+    B11((Xem đơn học viên))
+    B12((Duyệt đơn))
+    B13((Thống kê kết quả học toàn khóa))
+    B14((Quản lý tài khoản))
+
+    %% === RELATIONS ===
+    %% HỌC VIÊN
+    A1 --> B1
+    A1 --> B3
+    A1 --> B2
+    A1 --> B4
+    A1 --> B5
+    A1 --> B6
+    A1 --> B7
+
+    %% GIẢNG VIÊN
+    A2 --> B8
+    A2 --> B9
+    A2 --> B10
+
+    %% QUẢN TRỊ
+    A3 --> B11
+    A3 --> B12
+    A3 --> B13
+    A3 --> B14
+
+    %% INCLUDE / EXTEND RELATIONSHIPS
+    B2 -.-> |<<include>>| B4
+    B4 -.-> |<<include>>| B5
+    B7 -.-> |<<extend>>| B5
+    B11 -.-> |<<include>>| B12
+    B10 -.-> |<<extend>>| B9
