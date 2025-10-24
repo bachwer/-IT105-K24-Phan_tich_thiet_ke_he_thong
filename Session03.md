@@ -232,7 +232,7 @@ flowchart TD
 ```
 
 
-<h1>Ex 9:   hệ thống quản lý đào tạo online  </h1>
+<h1>Ex 10:   hệ thống quản lý đào tạo online  </h1>
 
 ```mermaid
 flowchart TD
