@@ -417,3 +417,59 @@ classDiagram
 
 ```
 
+
+<h1>BTTH:Thiết kế Class Diagram cho hệ thống Thư Viện</h1>
+
+
+
+
+```mermaid
+    classDiagram
+        class Member{
+            -String memberId
+            -String name
+            -String adrres
+            +List~listBook~ ListBook
+            +borrowBook()
+        }
+        class Librarian{
+            -String Name
+            -String Code
+            +addBook(Book b) void
+            +manageMember(Member m) void
+
+
+        }
+        
+        class Borrowing{
+            -Boolean Status
+            -String BorrowedDay
+            -String DateReturnBook
+            +getReturnDate() Date
+
+
+        }
+        class Book{
+            -String bookId
+            -String bookTitle
+            -String bookAuthor
+            -int quanityBook
+            +getInof()
+            +changeStatus()
+        }
+        
+        
+        Librarian *-- Member
+        Librarian *-- Book
+        
+        Member "1" -- > "N" Borrowing
+        Borrowing "N" --> "1" Member
+        Borrowing "N" --> "1" Book
+        
+        
+        Book "N" --> "1" Borrowing: recorded in
+        
+        
+        
+
+```
