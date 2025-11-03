@@ -42,3 +42,32 @@
 </td>
   </tr>
 </table>
+
+
+<h1>Ex2: Thiết kế form đăng nhập trực quan</h1>
+ <h3>Link: <link>https://www.figma.com/design/Ugh2VgQOYDodOXFkVH1yUf/Untitled?node-id=0-1&t=OP83w08PvSM1YjiG-1</a></h3>
+<img width="703" height="500" alt="image" src="https://github.com/user-attachments/assets/2f90a121-00c7-47f6-b3f7-eb8504a169ee" />
+<img width="231" height="506" alt="image" src="https://github.com/user-attachments/assets/3449ac9e-31ba-4cbd-8340-01d2c5fcccc6" />
+
+<h1>Ex3: </h1>
+ <h3>Link: <link>https://www.figma.com/design/Ugh2VgQOYDodOXFkVH1yUf/Untitled?node-id=0-1&t=OP83w08PvSM1YjiG-1</a></h3>
+<h1>Ex4: </h1>
+ <h3>Link: <link>https://www.figma.com/design/Ugh2VgQOYDodOXFkVH1yUf/Untitled?node-id=0-1&t=OP83w08PvSM1YjiG-1</a></h3>
+<h1>Ex5: </h1>
+ <h3>Link: <link>https://www.figma.com/design/Ugh2VgQOYDodOXFkVH1yUf/Untitled?node-id=0-1&t=OP83w08PvSM1YjiG-1</a></h3>
+<h1>Ex6: </h1>
+ <h3>Link: <link>https://www.figma.com/design/Ugh2VgQOYDodOXFkVH1yUf/Untitled?node-id=0-1&t=OP83w08PvSM1YjiG-1</a></h3>
+<h1>Ex7: </h1>
+ <h3>Link: <link>https://www.figma.com/design/Ugh2VgQOYDodOXFkVH1yUf/Untitled?node-id=0-1&t=OP83w08PvSM1YjiG-1</a></h3>
+<h1>Ex8: </h1>
+ <h3>Link: <link>https://www.figma.com/design/Ugh2VgQOYDodOXFkVH1yUf/Untitled?node-id=0-1&t=OP83w08PvSM1YjiG-1</a></h3>
+<h1>Ex9:</h1>
+ <h3>Link: <link>https://www.figma.com/design/Ugh2VgQOYDodOXFkVH1yUf/Untitled?node-id=0-1&t=OP83w08PvSM1YjiG-1</a></h3>
+
+
+
+
+
+
+
+
